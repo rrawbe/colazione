@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    background-color: #eaeaea;
+    font-family: sans-serif;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+main, footer{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+header a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: 40pt;
+}
+
+header nav ul {
+display: flex;
+font-size: 20pt;
+gap: 20%;
+padding-left: 50px;
+
+}
+
+section.hero h1 {
+    background-color: #d9d9d9;
+    height: 300px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 80pt;
+    
+}
+
+
+section.hero p {
+    padding: 40 px 20 px;
+    font-size: 32pt;
+    color: black;
+    text-align: left;
+    padding: 50px;
+    
+    
+}
+main div.card {
+    background: #EEDDCF;
+}
+main div img{
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+    height: 273px;
+    width: 273px;
+}
+main div.card h2 {
+    margin: 0;
+    padding: 50px 50px 50px 50px;
+    font-size: 24px;
+}
+main div.card h3 {
+    margin: 0;
+    padding: 20px 20px 4px 0px;
+    font-size: 24px;
+}
+main div.card h4 {
+    margin: 0;
+    padding: 20px 20px 4px 0px;
+    font-size: 24px;
+
+}
+
+  
